@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+    <title>ADEEB ANVAR</title>
+</head>
+<!-- ------------ HOME --------- -->
+
+<body>
+    <section id="home" class="coverImage">
+        <nav>
+            <!-- <a href="index.html"><img src="assets/WhatsApp Image 2024-07-02 at 8.22.06 PM.jpeg" alt=""></a> -->
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#skills-section">Skills</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div   class="text-box">
+            <h1>I'AM ADEEB ANVAR</h1>
+            <p>I am a self-taught software engineer with a Bachelor of Business Administration degree. <br> I am proficient in Flutter and working on producing the most efficient
+                applications with leading and well-known technologies.</p>
+            <a href="" class="hero-btn">Connect with me</a>
+        </div>
+    </section>
+    
+    <!-- ------------ ABOUT --------- -->
+    <section id="about-section" class="about">
+        <h1>ABOUT ME!</h1>
+        <p>Hello! I'm a dedicated and innovative software developer with a strong focus on Flutter, Node.js, and MySQL. With a background in Business Administration from Calicut University, I have developed a unique blend of technical expertise and business acumen.<br>
+            
+            Over the years, I have worked on a variety of projects, including chat applications using WebSockets, custom clip paths in Flutter, and integration of in-app purchases. I have a passion for creating seamless and user-friendly applications, always aiming to deliver high-quality, efficient, and scalable solutions.<br>
+            
+            My journey as a developer is fueled by a love for learning and a drive to stay updated with the latest technologies. Currently, I am exploring the GetX architecture in Flutter and continuously enhancing my skills in backend development with Node.js.<br>
+            
+            When I'm not coding, I enjoy working on game concepts that teach basic programming skills, focusing on JavaScript and DOM manipulation. My approach to problem-solving is both creative and analytical, ensuring that I can tackle challenges from multiple angles.<br>
+            
+            Feel free to explore my portfolio to see some of the projects I've worked on, and don't hesitate to get in touch if you'd like to collaborate or have any questions!</p>
+        </div>
+        <!-- ------------ skills --------- -->
+         
+    <section id="skills-section" class="skills">
+        <h1>SKILLS WHAT I HAVE!</h1>
+        <p>These technologies are making my projects efficient</p>
+        <div class="row">
+            <div class="skills-col">
+                <h3>Flutter</h3>
+
+                <p>Developing Mobile , web applications using Flutter technology<br>so it will be compatible to ios android devices </p>
+            </div>
+            <div class="skills-col">
+                <h3>Node JS</h3>
+
+                <p>Creating backend with Node js with Express js framework for better api communication.<br>node is used to communicate with DB to retrive and store data securely</p>
+            </div> <div class="skills-col">
+                <h3>HTML</h3>
+
+                <p>Develop an interactive website for your company <br> HTML can handle the website ui with css styling techniques</p>
+            </div>
+          
+              
+        </div>
+        <div class="row"><div class="skills-col">
+            <h3>My SQL</h3>
+
+            <p>Creating and maintaining a database is an important part of a project . <br> My SQL can handle all the situations in database</p>
+        </div>
+     
+            <div class="skills-col">
+                <h3>Mongo DB</h3>
+
+                <p>Communicating with a large scale industries . They have alot of data to store as secure .<br>so i can use mongo DB to provide security to our database </p>
+            </div>
+             <div class="skills-col">
+                <h3>Git</h3>
+
+                <p>Git is a tool to maintaining code and collaborate with others to handle the situations in the mean time of coding</p>
+            </div>
+           
+        </div>
+    </section>
+    </section>
+    <!-- ------Javascript for Toggle Menu-------->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+
+
+        }
+    </script>
+</body>
+
+</html>
